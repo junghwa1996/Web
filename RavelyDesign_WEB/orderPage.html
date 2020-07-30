@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문하기</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/import.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/port.js"></script>
+    <script src="js/order.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="header-wrap">
+    
+                <h1>
+                    <a href="index.html">RAVELY_DESIGN</a>
+                </h1>
+    
+                <nav>
+                    <input type="checkbox" id=downmenuicon>
+                    <label for="downmenuicon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="downmenu">
+                        <ul>
+                            <li>
+                             <a href="#">회사소개</a>
+                            </li>
+                            <li class="service">
+                               <a href="#">서비스</a>
+                                <div class="sub-nav">
+                                <div class="sub-wrap">
+                                    <ol>
+                                        <li>
+                                            <a href="">서비스</a>
+                                            <a href="">주문하기</a>
+                                            <a href="">이용방법</a>
+                                        </li>
+                                        <li>
+                                            <a href="">블랜딩계약</a>
+                                            <a href="">연간멤버십</a>
+                                        </li>
+                                        <li>
+                                            <a href="webdesign.html">웹디자인</a>
+                                            <a href="webdesign.html">홈페이지</a>
+                                            <a href="webdesign.html">쇼핑몰</a>
+                                            <a href="webdesign.html">UI/UX</a>
+                                        </li>
+                                        <li>
+                                            <a href="logo.html">로고</a>
+                                            <a href="logo.html">서체+심볼형</a>
+                                            <a href="logo.html">심볼형</a>
+                                            <a href="logo.html">서체형</a>
+                                        </li>
+                                        <li>
+                                            <a href="Edithial.html">에디터리얼</a>
+                                            <a href="Edithial.html">브로슈어</a>
+                                            <a href="Edithial.html">리플렛</a>
+                                            <a href="Edithial.html">명함</a>
+                                        </li>
+                                        <li>
+                                            <a href="Package.html">패키지</a>
+                                            <a href="Package.html">화장품</a>
+                                            <a href="Package.html">식품</a>
+                                            <a href="Package.html">제품</a>
+                                        </li>
+                                        <li>
+                                            <a href="photo.html">포토</a>
+                                            <a href="photo.html">누끼형</a>
+                                            <a href="photo.html">컨셉형</a>
+                                        </li>
+                                    </ol>
+                                </div>  
+                                </div>
+                            </li>
+                            <li>
+                              <a href="portfolio.html">포트폴리오</a>
+                            </li>
+                            <li>
+                             <a href="FQA.html">FQA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div>
+                    <div class="btn-line">
+                        <a href="webdesign.html">주문하기</a>
+                    </div>
+                    <div class="btn">
+                        <a href="">견적문의</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </header>
+
+    <div class="wrap inner orderPage_wrap">
+        <div class="order_view">
+
+            <div class="order_veiw_img">
+                <img src="https://via.placeholder.com/600" alt="img">
+            </div>
+
+            <div class="order_veiw_ctn">
+                <p>LOGO 디자인</p>
+                <h3>심볼 & 텍스트</h3>
+                <div class="order_veiw_ctn_text">
+                    <dl>
+                        <dt>시안제공</dt>
+                        <dd>1차 2종/2차 1종</dd>
+                    </dl>
+                    <dl>
+                        <dt>작업기간</dt>
+                        <dd>1주 내외 소요</dd>
+                    </dl>
+                    <dl>
+                        <dt>기능제공</dt>
+                        <dd>로고디자인 (AI:원본 / JPG:이미지)</dd>
+                    </dl>
+                    <dl>
+                        <dt>서비스</dt>
+                        <dd>수정 5회, 수입지 명함 2인 무료</dd>
+                    </dl>
+                    <dl>
+                        <dt>수량</dt>
+                        <dd>
+                            <input type="number" value="1">
+                            <span>수량은(는) 1 이상이어야 합니다.</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>추가옵션</dt>
+                        <dd>
+                            <select name="addoption" id="option">
+                                <option value="">옵션을 선택하여 주세요.</option>
+                                <option value="">옵션을 선택하여 주세요.</option>
+                                <option value="">옵션을 선택하여 주세요.</option>
+                                <option value="">옵션을 선택하여 주세요.</option>
+                                <option value="">옵션을 선택하여 주세요.</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                </div>
+                <div class="order_veiw_ctn_click">
+                    <dl class="click_title">
+                        <dt>상품가격</dt>
+                        <dd>
+                            500,000원x
+                            <span>1</span>
+                        </dd>
+                    </dl>
+                    <div class="optionlist">
+                        <dl class="openbox">
+                            <dt>pc웹+모바일</dt>
+                            <dd>
+                                250,000원
+                                <span class="add">
+                                    x
+                                    <span class="count">1</span>
+                                </span>
+                            </dd>
+                        </dl>
+                    </div>   
+                </div>
+                <div class="order_veiw_ctn_result">
+                    <p>(선금 100%, 잔금 0% / 부가세 별도) 총 가격 : </p>
+                    <strong>500,000원</strong>
+                </div>
+                <div class="btn_wrap">
+                    <div class="btn-line">
+                        <a href="#">목록으로</a>
+                    </div>
+                    <div class="btn">
+                        <a href="#">주문하기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="order_common_ctn">
+            <section class="PROCESS">
+                <article class="order_sub_ctn">
+                    <h4>기업의 대표 이미지 LOGO 디자인</h4>
+                    <dl>
+                        <dt>제작 사양 : </dt>
+                        <dd>1차 2종 / 2차 1종</dd>
+                    </dl>
+                    <dl>
+                        <dt>제공 사향 : </dt>
+                        <dd>AI:원본 / JPG 이미지</dd>
+                    </dl>
+                    <dl>
+                        <dt>서비스 : </dt>
+                        <dd>수정 5회, 수입 명함 2인 무료</dd>
+                    </dl>
+                </article>
+                <article class="tell">
+                    <p><span class="material-icons">play_arrow</span> 라블리에 방문해 주시면 언제든지 상담이 가능합니다.</p>
+                    <dl>
+                        <dt><span class="material-icons">play_arrow</span>상담예약 : </dt>
+                        <dd>070 - 4616 - 3320</dd>
+                    </dl>
+                    <dl>
+                        <dt><span class="material-icons">play_arrow</span>주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소 : </dt>
+                        <dd>인천광역시 계양구 계산천동로 41번길 4-2 203호</dd>
+                    </dl>
+                </article>
+                <article class="process">
+                    <p><span class="material-icons">play_arrow</span>PROCESS</p>
+                    <div class="process_ctn">
+                        <div class="process_Box">
+                            <dl>
+                                <dt>주문접수</dt>
+                                <dd>결제완료</dd>
+                            </dl>
+                        </div>
+                        <div class="process_Box"><span class="material-icons">play_arrow</span></div>
+                        <div class="process_Box">
+                            <dl>
+                                <dt>질의응답 작성</dt>
+                                <dd>원하는 디자인 예시</dd>
+                            </dl>
+                        </div>
+                        <div class="process_Box"><span class="material-icons">play_arrow</span></div>
+                        <div class="process_Box">
+                            <dl>
+                                <dt>담당자 배정</dt>
+                                <dd>작업 전 통화</dd>
+                            </dl>
+                        </div>
+                        <div class="process_Box"><span class="material-icons">play_arrow</span></div>
+                        <div class="process_Box">
+                            <dl>
+                                <dt>시안 확인</dt>
+                                <dd>작업 진행</dd>
+                                <dd>피드백/수정</dd>
+                            </dl>
+                        </div>
+                        <div class="process_Box"><span class="material-icons">play_arrow</span></div>
+                        <div class="process_Box">
+                            <dl>
+                                <dt>확정</dt>
+                                <dd>잔금 확인 후</dd>
+                                <dd>원본 납품</dd>
+                            </dl>
+                        </div>
+                        <div class="process_Box"><span class="material-icons">play_arrow</span></div>
+                        <div class="process_Box">
+                            <dl>
+                                <dt>추가 서비스 진행</dt>
+                                <dd>컨설팅 등</dd>
+                            </dl>
+                        </div>
+                        <div class="process_Box"><span class="material-icons" style="opacity: 0;">play_arrow</span></div>
+                    </div>
+                </article>
+            </section>
+            <section class="Online service_common">
+                <article class="service_h3"><h3>온라인 서비스</h3></article>
+                <article class="ctn">
+                    <strong>라블리의 디자인 서비스를 온라인에서 만나볼 수 있습니다.</strong>
+                    <p>서비스의 불필요한 공무를 줄이고, 필요한 프로세스만을 적용하여 제작 비용을 예산에 맞게 온라인으로 주문하는 서비스입니다.</p>
+                    <img src="https://via.placeholder.com/1030x500" alt="img">
+                    <div>
+                        <dl>
+                            <dt>질의 응답 시스템</dt>
+                            <dd>전문적인 질의응답 시스템으로
+                                프로젝트의 깊은 이해력과 함께
+                                작업을 진행합니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>모바일에서도 주문 관리</dt>
+                            <dd>PC 뿐만 아니라 모바일 등 휴대기기로도
+                                언제 어디서든 시안이 확인 가능합니다.</dd>
+                        </dl>
+                        <dl>
+                            <dt>신속한 피드백</dt>
+                            <dd>1:1 전문 인력 배정으로
+                                어디에 계시든 신속한 피드백이 가능합니다.</dd>
+                        </dl>
+                    </div>
+                </article>
+            </section>
+            <section class="group service_common">
+                <article class="service_h3"><h3>라블리 그룹 서비스</h3></article>
+                <article class="ctn">
+                    <strong>라블리의 디자인 서비스를 온라인에서 만나볼 수 있습니다.</strong>
+                    <p>서비스의 불필요한 공무를 줄이고, 필요한 프로세스만을 적용하여 제작 비용을 예산에 맞게 온라인으로 주문하는 서비스입니다.</p>
+                    <img src="https://via.placeholder.com/1030x290" alt="img">
+                    <div>
+                        <dl>
+                            <dt>Branding</dt>
+                            <dd>Branding Publishing</dd>
+                            <dd>Naming</dd>
+                            <dd>Logo Desgin</dd>
+                            <dd>C.I.P</dd>
+                        </dl>
+                        <dl>
+                            <dt>design</dt>
+                            <dd>Graphic Design</dd>
+                            <dd>Package Design</dd>
+                            <dd>Interior Design</dd>
+                        </dl>
+                        <dl>
+                            <dt>wed & it</dt>
+                            <dd>Web Design</dd>
+                            <dd>IT Development</dd>
+                            <dd>Platform</dd>
+                        </dl>
+                        <dl>
+                            <dt>studio</dt>
+                            <dd>Photo</dd>
+                        </dl>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <div class="Quick_0box_Menu" id="floatMenu">
+            <div class="btn-line"><a href="webdesign.html">웹디자인</a></div>
+            <div class="btn-line"><a href="logo.html">로고</a></div>
+            <div class="btn-line"><a href="Edithial.html">에디터</a></div>
+            <div class="btn-line"><a href="Package.html">패키지</a></div>
+            <div class="btn-line"><a href="photo.html">포토</a></div>
+            <div class="btn scrollTop"><a href="#">TOP</a></div>
+        </div>
+    </div> 
+
+
+    <div class="fixedBtn">
+        <div class="btn">
+        <a href="">카카오톡</a>
+        </div>
+        <div class="btn">
+        <a href="">회사소개서</a>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+        <h3>RAVELY_DESIGN</h3>
+        <ul>
+        <li><a href="#"><img src="https://via.placeholder.com/20" alt=""></a></li>
+        <li><a href="#"><img src="https://via.placeholder.com/20" alt=""></a></li>
+        <li><a href="#"><img src="https://via.placeholder.com/20" alt=""></a></li>
+        </ul>
+        </div>
+        <div>
+        <ul>
+        <li>
+        <ol>
+        <li><p>ⓒ revelydesign</p></li>
+        <li><a href="">이용약관</a></li>
+        <li><a href="">개인정보처리방침</a></li>
+        <li><a href="FQA.html">FAQ</a></li>
+        </ol>
+        </li>
+        <li>
+        <p>라블리디자인 ㅣ 대표자명: 변진호 ㅣ 개인정보보호책임자: 변진호 ㅣ 사업자등록번호: - ㅣ통신판매신고번호: -호 ㅣ 본사: 인천 계양구 계산동로41번길 4-2 203호</p>
+        </li>
+        </ul>
+        </div>
+    </footer>
+
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

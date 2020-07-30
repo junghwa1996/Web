@@ -1,0 +1,28 @@
+.portfolio-page{width: 100%;}
+.portfolio-page-wrap{max-width: 1300px; margin: 0 auto;}
+.port-header{width: 100%; height: 300px; text-align: center; display: flex; justify-content: center; align-items: flex-end;}
+.port-header dl{height: 140px;}
+.port-header dl dt{font-size: 30px; font-weight: bold;}
+.port-header dl dd{font-size: 15px; line-height: 30px;}
+
+.tab-title ul{display: flex; justify-content: space-between; margin: 0 0 50px 0;}
+.tab-title ul li{margin: 0 auto;} 
+.tab-title ul li.active{border-bottom: 2px solid #404040;} 
+.tab-title ul li a{display: block; color: #404040; font-size: 20px; padding: 20px;}
+
+
+
+.tab-ctn .tab-panel{margin-bottom: 50px; display: none;}
+.tab-ctn .tab-panel.active{display: block;}
+.tab-ctn ol{display: flex; flex-wrap: wrap;}
+.tab-ctn ol li{width: 33.33%;}
+.tab-ctn ol li a{display: block; padding: 10px;}
+.tab-ctn ol li a img{width: 100%; height: 100%;}
+
+@media screen and (max-width: 600px){
+    .tab-title ul{display: flex; justify-content: center; flex-wrap: wrap; margin: 0 auto; width: 300px; padding-bottom: 30px;}
+    .tab-title ul li a{display: block; color: #404040; font-size: 15px; padding: 20px;}
+
+    .tab-ctn ol{display: flex; flex-wrap: wrap; justify-content: space-between;}
+    .tab-ctn ol li{width: 50%;}
+}
