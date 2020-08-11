@@ -1,0 +1,141 @@
+.order_view {display: flex;  border: 1px solid #cccccc; border-radius: 20px; overflow: hidden; margin: 50px 0 30px; flex-wrap: wrap;}
+.order_view .order_veiw_img{width: 50%;}
+.order_view .order_veiw_img img{width: 100%;}
+.order_view .order_veiw_ctn{ padding:2% 3% 2% 3%; width: 43%;}
+.order_view .order_veiw_ctn > p{font-size: 15px; line-height: 25px;}
+.order_view .order_veiw_ctn > h3{font-size: 25px; font-weight: bold; margin-bottom: 25px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text{margin-bottom: 10px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dl{display: flex; width: 100%; line-height: 30px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dl:nth-child(4){margin-bottom: 30px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dl:nth-child(5){margin-bottom: 5px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dl:nth-child(5) dd input{width: 50px; text-align: center; border-radius: 5px; border: 1px solid #cccccc; padding: 3px 0;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dl:nth-child(5) dd span{color: red; margin-left: 10px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dl:last-child dd select{width: 100%;  border-radius: 5px; border: 1px solid #cccccc; padding: 3px 5px 8px ;}
+.order_view .order_veiw_ctn .order_veiw_ctn_text dt{width: 15%;}
+/* 제공되는 기능 안내 텍스트 */
+
+.order_view .order_veiw_ctn .order_veiw_ctn_click{background-color: #eeeeee; border-radius: 4px; padding: 15px 20px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_click dl{display: flex; justify-content: space-between; line-height: 25px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_click > dl > dt{font-size: 14px;}
+.order_view .order_veiw_ctn .order_veiw_ctn_click .click_title dt{font-weight: bold;}
+.order_view .order_veiw_ctn .order_veiw_ctn_click .click_title dd{color: #CA0000;}
+.order_view .order_veiw_ctn .order_veiw_ctn_click .optionlist dl{color: #707070;}
+/* 수량,옵션 */
+
+.order_view .order_veiw_ctn .order_veiw_ctn_result{margin: 20px 0; display: flex; justify-content: flex-end; align-items: baseline; flex-wrap: wrap;}
+.order_view .order_veiw_ctn .order_veiw_ctn_result p{font-size: 14px; color: #707070;}
+.order_view .order_veiw_ctn .order_veiw_ctn_result strong{font-size: 25px; font-weight: bold; color: #CA0000; margin-left: 20px; margin-top: 10px;}
+/* 총금액 */
+
+.order_view .order_veiw_ctn .btn_wrap{display: flex; justify-content: flex-end;}
+.order_view .order_veiw_ctn .btn_wrap .btn-line{margin-right: 15px;}
+/* 버튼 */
+
+
+/*--------------- 상품 오더 메인 -----------------*/
+
+.order_common_ctn .PROCESS article {margin: 20px 15px;}
+.order_common_ctn .PROCESS .order_sub_ctn{background-color: #eeeeee; border-radius: 10px; padding: 15px 25px;}
+.order_common_ctn .PROCESS .order_sub_ctn h4{font-size: 18px; font-weight: bold; margin-bottom: 15px;}
+.order_common_ctn .PROCESS .order_sub_ctn dl{display: flex; line-height: 25px; font-size: 15px;}
+/* 제품 상세 사양 확인란 */
+
+.order_common_ctn .PROCESS .tell p{display: flex; align-items: center; margin-bottom: 10px; font-size: 20px;}
+.order_common_ctn .PROCESS .tell p span{transform: rotate(-90deg); margin-right: 5px;}
+.order_common_ctn .PROCESS .tell dl{display: flex; margin-left: 30px; font-size: 15px; line-height: 25px;}
+.order_common_ctn .PROCESS .tell dl dt { width: 90px;}
+.order_common_ctn .PROCESS .tell dl dt span{font-size: 15px; color: #cccccc; margin-right: 5px;}
+/* 고객센터 안내 */
+
+.order_common_ctn .PROCESS .process p{display: flex; align-items: center; margin-bottom: 10px; font-size: 20px;}
+.order_common_ctn .PROCESS .process p span{transform: rotate(-90deg); margin-right: 5px;}
+.order_common_ctn .PROCESS .process_ctn{display: flex; justify-content: space-between; align-items: center;}
+.order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1){background-color: #F6F6F6; width: 185px; height: 130px; border-radius: 10px; display: flex; justify-content: center; align-items: center;}
+.order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1) dl{ text-align: center;}
+.order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1) dt{ font-size: 20px; font-weight: bold; margin-bottom: 10px;}
+.order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1) dd{ font-size: 15px; line-height: 20px;}
+.order_common_ctn .PROCESS .process_ctn .process_Box:not(:nth-child(2n-1)){color: #cccccc;}
+/* 제작 과정 */
+
+
+.order_common_ctn .service_common{ padding: 20px 0; border-top: 1px solid #eeeeee; display: flex; justify-content: space-between;}
+/* .order_common_ctn .service_common article{margin: 0 15px;} */
+.order_common_ctn .service_common .service_h3{margin-left: 15px; font-size: 20px; font-weight: bold; width: 200px; margin-bottom: 15px;}
+.order_common_ctn .service_common .ctn strong{ margin-left: 15px; font-size: 15px; font-weight: bold;}
+.order_common_ctn .service_common .ctn p{margin: 0 15px; line-height: 25px; font-size: 15px; color: #707070; padding: 10px 0;}
+.order_common_ctn .service_common .ctn img{width: 100%;}
+.order_common_ctn .service_common .ctn div{display: flex; justify-content: space-between; text-align: center; width: 950px; margin: 50px 0;}
+.order_common_ctn .service_common .ctn div dl{padding: 20px 15px;}
+.order_common_ctn .service_common .ctn div dl dt{font-size: 18px; font-weight: bold; margin-bottom: 10px;}
+.order_common_ctn .service_common .ctn div dl dd{font-size: 15px; line-height: 30px; color: #707070;}
+/* 온라인서비스 */
+
+.order_common_ctn .group .ctn div{text-align: left; }
+.order_common_ctn .group .ctn div dl{position: relative;}
+.order_common_ctn .group .ctn div dl dt::before{content: ""; width: 2px; background-color: #eeeeee; position: absolute; left: 25px; top: 50px;}
+.order_common_ctn .group .ctn div dl:nth-child(1) dt::before{ height: 120px;}
+.order_common_ctn .group .ctn div dl:nth-child(2) dt::before{ height: 90px; }
+.order_common_ctn .group .ctn div dl:nth-child(3) dt::before{ height: 90px; }
+.order_common_ctn .group .ctn div dl:nth-child(4) dt::before{ height: 30px; }
+.order_common_ctn .group .ctn div dl dd{margin-left: 20px;}
+/* 그룹서비스 */
+
+.orderPage_wrap{position: relative;}
+.Quick_0box_Menu{position: absolute; top: 300px; right: -150px; width: 120px; height: 300px;}
+.Quick_0box_Menu div{margin: 10px 0;}
+.Quick_0box_Menu .btn-line:hover{background-color: #404040;}
+.Quick_0box_Menu .btn-line:hover a{color: #fff;}
+/* 오른쪽 플로팅 메뉴 */
+
+/* ------------반응형 잡기------------- */
+
+@media screen and (max-width:1620px){
+    .Quick_0box_Menu{display: none;}
+}
+@media screen and (max-width: 1160px){
+
+    .order_view .order_veiw_img{width: 100%;}
+    .order_view .order_veiw_ctn{width: 95%;}
+    
+    .order_view{display: block; border-radius: 0px;}
+    .order_common_ctn .service_common{  display: block; }   
+
+}
+@media screen and (max-width: 979px){
+    .order_common_ctn .PROCESS .process_ctn{flex-wrap: wrap;  justify-content: center;}
+    .order_common_ctn .PROCESS .process_ctn .process_Box{margin-bottom: 25px;}
+    .order_common_ctn .service_common .ctn div{width: 100%;}
+}
+@media screen and (max-width: 710px){
+    .order_common_ctn .Online .ctn div{flex-direction: column; justify-content: center;}
+    .order_common_ctn .group .ctn div{flex-wrap: wrap; justify-content: center;}
+    .order_common_ctn .group .ctn div dl{width: 40%;}
+
+}
+@media screen and (max-width: 500px){
+    .order_view .order_veiw_ctn .order_veiw_ctn_text{ font-size: 12px;}
+    .order_view .order_veiw_ctn .order_veiw_ctn_text dt{width: 20%;}
+    .order_view .order_veiw_ctn > h3{font-size: 20px;}
+    .order_veiw_ctn_click{font-size: 14px;}
+
+    .order_view .order_veiw_ctn .btn_wrap{justify-content: center;}
+    .order_view .order_veiw_ctn .btn_wrap .btn-line,.order_view .order_veiw_ctn .btn_wrap .btn{width: 50%;}
+
+    .order_common_ctn .PROCESS .order_sub_ctn h4{font-size: 15px;}
+    .order_common_ctn .PROCESS .order_sub_ctn dl{font-size: 12px;}
+    .order_common_ctn .PROCESS .tell p{font-size: 15px;}
+
+    .order_common_ctn .PROCESS .tell dl{display: inline;  font-size: 12px; line-height: 20px;}
+    .order_common_ctn .PROCESS .tell dl dt,.order_common_ctn .PROCESS .tell dl dd{margin-left: 25px;}
+
+    .order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1) dt{font-size: 15px;}
+    .order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1) dd {font-size: 12px;}
+    .order_common_ctn .PROCESS .process_ctn .process_Box:nth-child(2n-1){width: 130px; height: 80px;}
+
+    .order_common_ctn .service_common .ctn p{font-size: 12px;}
+    .order_common_ctn .service_common .ctn div dl dt{font-size: 15px;}
+    .order_common_ctn .service_common .ctn div dl dd{font-size: 12px; line-height: 20px;}
+
+
+
+}

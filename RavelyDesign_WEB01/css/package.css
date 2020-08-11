@@ -1,0 +1,11 @@
+
+
+@media screen and (min-width:901px) and (max-width: 1250px){
+    .order_ctn > div:nth-child(4) ul{justify-content: center;}
+    .order_ctn > div:nth-child(4) ul li:nth-child(2),
+    .order_ctn > div:nth-child(4) ul li:nth-child(3){display: none;}
+}
+@media screen and (max-width: 900px){
+    .order_ctn > div:nth-child(4) ul li:nth-child(2),
+    .order_ctn > div:nth-child(4) ul li:nth-child(3){display: none;}
+}

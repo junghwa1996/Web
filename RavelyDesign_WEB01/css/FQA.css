@@ -1,0 +1,42 @@
+.inner{max-width: 1300px; margin: 0 auto; padding: 50px 0;}
+
+
+
+main .fqa_header{background-color: #eeeeee; height: 300px; width: 100%; text-align: center;}
+main .fqa_header h2{ font-size: 30px; font-weight: bold; padding: 160px;}
+
+/* .fqa_inner{padding: 40px 0;}
+.fqa_inner .fqa_title{display: flex; justify-content: center; margin-bottom: 40px;}
+.fqa_inner .fqa_title li{cursor: pointer; padding: 15px 20px; margin: 0 10px;}
+.fqa_inner .fqa_title li.active{border-bottom: 2px solid #404040;}
+.fqa_inner .fqa_title li a{color: #404040; font-size: 25px;} */
+
+.fqa_inner .fqa_ctn{display: flex; flex-direction: column;}
+/* .fqa_inner .fqa_ctn.active{display: flex;} */
+.fqa_inner .fqa_ctn .accordion_wrap{padding:10px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header{display: flex; justify-content: space-between; align-content: center; border-bottom: 1px solid #404040; cursor: pointer; padding-top: 10px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header .ctn-left{display: flex; }
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header .ctn-left span{font-size: 30px; font-weight: bold; margin-right: 20px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header .ctn-left p{font-size: 25px; margin-top: 5px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header i{font-size: 50px; transition: all .5s ease;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_ctn{ background-color: #eeeeee; transition: all .5s ease; height: 0px; overflow: hidden;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_ctn span{font-size: 25px; font-weight: bold; padding-left: 30px; display: inline-block; padding-top: 30px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_ctn p{font-size: 20px; line-height: 35px; padding-top: 15px; padding: 15px 30px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header.active + .accordion_ctn{ height: 250px;}
+.fqa_inner .fqa_ctn .accordion_wrap .accordion_header.active i{transform: rotate(180deg);}
+
+@media screen and (max-width: 979px){
+    main .fqa_header{background-color: #eeeeee; height: 200px; width: 100%; text-align: center;}
+    main .fqa_header h2{ padding-top: 110px;}
+
+
+
+    .fqa_inner .fqa_title li a{color: #404040; font-size: 20px;}
+    .fqa_inner .fqa_ctn .accordion_wrap .accordion_header .ctn-left span{font-size: 25px; font-weight: bold; margin-right: 20px;}
+    .fqa_inner .fqa_ctn .accordion_wrap .accordion_header .ctn-left p{font-size: 20px; margin-top: 5px;}
+    .fqa_inner .fqa_ctn .accordion_wrap .accordion_header i{font-size: 40px;}
+    .fqa_inner .fqa_ctn .accordion_wrap .accordion_ctn span{font-size: 20px; font-weight: bold; padding-left: 30px; display: inline-block; padding-top: 30px;}
+    .fqa_inner .fqa_ctn .accordion_wrap .accordion_ctn p{font-size: 15px; line-height: 35px; padding-top: 15px; padding: 15px 30px;}
+
+
+}

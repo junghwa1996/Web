@@ -1,0 +1,18 @@
+@import url("reset.css");
+@import url("global.css");
+@import url("index.css");
+@import url("portfolio.css");
+
+@import url("FQA.css");
+@import url("webdesign.css");
+@import url("photo.css");
+@import url("orderPage.css");
+@import url("package.css");
+
+/* 라이브러리 */
+@import url("lightbox.css");
+@import url("animate.css");
+/* 라이브러리 */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap");
+body>*{font-family: 'Noto Sans KR', sans-serif;}

@@ -1,0 +1,47 @@
+
+
+.webdesign_header{background-color: gray;}
+.webdesign_header_wrap{text-align: right; padding: 150px 20px 100px;  color: #fff;}
+.webdesign_header_wrap h2{font-size: 40px; font-weight: bold; padding-bottom: 20px; border-bottom: 2px solid #fff; display: inline-block;}
+.webdesign_header_wrap p{font-size: 20px; line-height: 40px;}
+
+.order_sub_menu{display: flex; justify-content: space-around; margin-bottom: 100px;}
+.order_sub_menu li{width: 100px; text-align: center; padding-bottom: 20px;}
+.order_sub_menu li:hover{border-bottom: 1px solid #404040;}
+.order_sub_menu li.on{border-bottom: 1px solid #404040;}
+.order_sub_menu li a{font-size: 20px; color: #404040;}
+
+.order_ctn{padding: 0 20px;}
+.order_ctn .order_sub_ctn{display: flex; justify-content: space-between; padding: 40px 0;}
+.order_ctn .order_sub_ctn dl dt{font-size: 40px; font-weight: bold;}
+.order_ctn .order_sub_ctn dl dd{font-size: 18px; line-height: 50px;}
+
+.order_ctn .order_sub_ctn .order_box_ctn{display: flex;}
+.order_ctn .order_sub_ctn .order_box_ctn li{margin: 0 20px; border: 1px solid #cccccc;}
+
+.order_ctn .order_sub_ctn .order_box_ctn li img{width: 100%; box-sizing: border-box; border-bottom: 1px solid #cccccc;}
+.order_ctn .order_sub_ctn .order_box_ctn li .sub_ctn_text{ padding: 20px; height: 250px; position: relative;}
+.order_ctn .order_sub_ctn .order_box_ctn li .sub_ctn_text > p{ font-size: 18px;}
+.order_ctn .order_sub_ctn .order_box_ctn li .sub_ctn_text > h3{ font-size: 25px; font-weight: bold; line-height: 50px;}
+.order_ctn .order_sub_ctn .order_box_ctn li .sub_ctn_text .small_text{ font-size: 13px; line-height: 20px; color: #707070;}
+.order_ctn .order_sub_ctn .order_box_ctn li .sub_ctn_text .btn{position: absolute; bottom: 20px; right: 20px;}
+
+@media screen and (max-width: 1250px){
+    .order_ctn .order_sub_ctn{display: flex; flex-direction: column; align-items: center;}
+    .order_ctn .order_sub_ctn dl{margin-bottom: 50px;}
+}
+
+@media screen and (max-width: 900px){
+    .webdesign_header_wrap{text-align: center;}
+    .webdesign_header_wrap h2{font-size: 25px; }
+    .webdesign_header_wrap p{font-size: 15px;}
+
+    .order_ctn .order_sub_ctn .order_box_ctn{display: block;}
+    .order_ctn .order_sub_ctn .order_box_ctn li{width: 90vw; margin: 0;}
+    .order_ctn .order_sub_ctn .order_box_ctn li:not(:last-child){margin-bottom: 50px;}
+
+    .order_sub_menu{padding: 0 10px; flex-wrap: wrap; justify-content: center;}
+    .order_sub_menu li{padding: 10px; margin: 15px 10px;}
+    .order_sub_menu li a{font-size: 18px;}
+
+}

@@ -1,0 +1,29 @@
+/* .order_ctn .order_sub_ctn .photo_ctn{display: flex;} */
+.order_ctn .order_sub_ctn .photo_ctn li{display: flex; margin: 0 20px; border: 1px solid #cccccc;}
+.order_ctn .order_sub_ctn .photo_ctn li img{box-sizing: border-box; border-bottom: 1px solid #cccccc;}
+.order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text{ padding: 20px;  position: relative;}
+.order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text > p{ font-size: 18px;}
+.order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text > h3{ font-size: 25px; font-weight: bold; line-height: 50px;}
+.order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text .small_text{ font-size: 13px; line-height: 20px; color: #707070;}
+.order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text .btn{position: absolute; bottom: 20px; right: 20px;}
+
+@media screen and (min-width:1251px){
+    .order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text{width: 300px;}
+}
+
+
+@media screen and (min-width:901px) and (max-width: 1250px){
+    .order_ctn .order_sub_ctn{display: flex; flex-direction: column; align-items: center;}
+    .order_ctn .order_sub_ctn dl{margin-bottom: 50px;}
+
+    .order_ctn .order_sub_ctn .photo_ctn li .sub_ctn_text{width: 300px;}
+    .order_ctn .order_sub_ctn .photo_ctn li img{ width: 50vw;}
+
+}
+
+@media screen and (max-width: 900px){
+    .order_ctn .order_sub_ctn .photo_ctn{display: block;}
+    .order_ctn .order_sub_ctn .photo_ctn li{width: 90vw; margin: 0; display: block;}
+    .order_ctn .order_sub_ctn .photo_ctn li img{ width: 100%;}
+
+}
