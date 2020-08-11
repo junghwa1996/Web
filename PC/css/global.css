@@ -1,0 +1,17 @@
+body{min-width: 1200px;}
+
+.inner
+{max-width: 1200px; margin: 0 auto;}
+
+.width_100
+{width: 100%;}
+
+.hidden
+{overflow: hidden;}
+
+.img_scale:hover
+{transform: scale(1.1);transition: all .5s ease;}
+.img_hover_remove
+{transition: all .5s ease;}
+
+
