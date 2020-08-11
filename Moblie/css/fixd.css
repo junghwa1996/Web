@@ -1,0 +1,99 @@
+
+
+/* common */
+
+.Top_Banner{background-color: #eeeeee;}
+
+/* Top Banner Fin */
+
+header.fixedNav{position: fixed; top:0; left: 0; background-color: #fff; z-index: 100000; border-bottom: 1px solid #707070;}
+
+.Top_Nav .Top_Nav_Wrap .User {display: flex; justify-content: space-between; padding: 10px 0; font-size: 12px;}
+.Top_Nav .Top_Nav_Wrap .User a{color: #404040;}
+
+header .header_Wrap {display: flex; justify-content: space-between; padding: 15px 0; align-items: center;}
+header .header_Wrap .asideMenuIco{cursor: pointer;}
+header .header_Wrap .asideMenuIco i{font-size: 30px;}
+
+/* 어사이드 메뉴 구간 Start */
+header .header_Wrap .sidebar{position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); height: 100vh; width: 100%; transform: translate(-100%);transition: all .5s ease; z-index: 10000;}
+header .header_Wrap .sidebar.open{transform: translate(0); transition: all .5s ease; background-color: rgba(0, 0, 0, .8); height: 100vh;}
+header .header_Wrap .sidebar .asideMenuWrap{position: relative;}
+header .header_Wrap .sidebar .asideMenuWrap .asideMenuIco{position: absolute; right: 0; top: 20px; cursor: pointer;}
+header .header_Wrap .sidebar .asideMenuWrap .asideMenuIco i{color: #fff; font-size: 30px;}
+header .header_Wrap .sidebar .asideMenuWrap .UserMenu{display: flex; padding: 70px 0 30px 0; justify-content: space-between;}
+header .header_Wrap .sidebar .asideMenuWrap .UserMenu a{color: #fff; font-size: 12px; margin: 5px;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap{position: relative;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap ul {display: flex; width: 100%;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap ul li{width: 100%;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap ul li .tabtitle{cursor: pointer; }
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap ul li .tabtitle p{color: #fff; font-size: 15px;background-color: #000; padding: 15px 10px; }
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap .tab.tabOn .tabtitle p{color: #404040; font-size: 15px;background-color: #fff; padding: 15px 10px; font-weight: bold;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap .tab .subtab{ position: absolute; top: 40px; left: 0; width: 100%; background-color: #fff; display: none;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap .tab.tabOn .subtab{display: block;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap .tab .subtab ul{display: flex; flex-direction: column;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap .tab .subtab ul li{line-height: 40px;}
+header .header_Wrap .sidebar .asideMenuWrap .tapwrap .tab .subtab ul li a{color: #000; font-size: 15px; padding: 0 10px;}
+/* 어사이드 메뉴 구간 Fin */
+
+header .header_Wrap h1{font-size: 20px; font-weight: bold;}
+header .header_Wrap .right .search .search_ico i{font-size: 30px; cursor: pointer;}
+header .header_Wrap .right .search form {position: absolute; top: 0; left: 0; background-color: #eeeeee; width: 100%; height: 100px; border-bottom: 1px solid #707070; transform: translate(0,-100%); transition: all .5s ease;}
+header .header_Wrap .right .search form.searchOn{transform: translate(0,0); transition: all .5s ease;}
+header .header_Wrap .right .search form fieldset{position: relative; height: 100%;}
+header .header_Wrap .right .search form fieldset legend{display: none;}
+header .header_Wrap .right .search form fieldset .searchctn{margin-top: 20px; display: flex; align-items: center;}
+header .header_Wrap .right .search form fieldset .searchctn input{box-sizing: border-box;}
+header .header_Wrap .right .search form fieldset .searchctn input[type='text']{width: 100%; border: 1px solid #707070; padding: 7px; height: 30px;}
+header .header_Wrap .right .search form fieldset .searchctn input[type='button']{background-color: #000; color: #fff; border: none; height: 30px; font-size: 15px; width: 80px;}
+header .header_Wrap .right .search form fieldset .closeBtn{position: absolute; right: 10px; bottom: 10px; cursor: pointer;}
+header .header_Wrap .right .search form fieldset .closeBtn i{font-size: 25px;}
+
+/* 로고 & 서치부분 마무리 */
+.middle{border-bottom: 1px solid #707070;}
+.middle ul{display: flex; justify-content: space-between; }
+.middle ul li{margin: 10px 0;}
+.middle ul li a{font-size: 15px; color: #404040;}
+/* middle nav Fin */
+
+
+.Topbtn {position: absolute; bottom: 60px; right: 50px; z-index: 100000; opacity: 0; transition: all .5s ease;}
+.Topbtn.block{opacity: 1;  transition: all .5s ease;}
+.Topbtn .Topico{position: fixed;}
+.Topbtn .Topico i{font-size: 40px; color: #404040; cursor: pointer;}
+
+
+
+footer {margin-top: 50px; border-top: 1px solid #404040;}
+footer .footerWrap .footerLink {padding: 20px 0; border-bottom: 1px solid #eeeeee; display: flex; flex-direction: column; align-items: center;}
+footer .footerWrap .footerLink .linkmenu{width: 100%; margin-bottom: 20px;}
+footer .footerWrap .footerLink .linkmenu ul {display: flex; position: relative; justify-content: space-between;}
+footer .footerWrap .footerLink .linkmenu ul li{ position: relative;}
+/* footer .footerWrap .footerLink .linkmenu ul li:not(:last-child)::before{content: ''; border-right: 1px solid #707070; position: absolute; top: 1px; right: -20px; width: 1px; height: 15px;} */
+footer .footerWrap .footerLink .linkmenu ul li a{font-size: 12px; color: #707070;}
+footer .footerWrap .footerLink .snsico a{color: #707070; font-size: 25px;}
+footer .footerWrap .footerLink .snsico a:first-child{margin-right: 5px;}
+/* footerLink Fin */
+footer .footerWrap .footerctn .ctnM{display: flex; justify-content: space-between; padding: 20px 0; border-bottom: 1px solid #eeeeee; flex-direction: column-reverse; text-align: center;}
+footer .footerWrap .footerctn .ctnM>div{margin-bottom: 50px;}
+footer .footerWrap .footerctn .ctnM h3{font-size: 18px; font-weight: bold; color: #404040; margin-bottom: 20px;}
+footer .footerWrap .footerctn .ctnM .Number p{font-size: 30px; font-weight: bold; margin-bottom: 20px;}
+footer .footerWrap .footerctn .ctnM .Number dl{font-size: 12px; color: #707070; line-height: 25px;}
+footer .footerWrap .footerctn .ctnM .Number dl dd{font-weight: bold; color: #404040;}
+
+footer .footerWrap .footerctn .ctnM .Bank{display: flex; flex-direction: column; align-items: center;}
+footer .footerWrap .footerctn .ctnM .Bank ul li{display: flex; line-height: 30px; font-size: 15px;}
+footer .footerWrap .footerctn .ctnM .Bank ul li p{font-weight: bold; margin-right: 10px;}
+footer .footerWrap .footerctn .ctnM .Bank ul li.BackLink{margin-top: 10px;}
+footer .footerWrap .footerctn .ctnM .Bank ul li.BackLink select{font-size: 12px;}
+
+footer .footerWrap .footerctn .ctnM .ShopMenu ul {display: flex; flex-wrap: wrap; justify-content: center;}
+footer .footerWrap .footerctn .ctnM .ShopMenu ul li{text-align: center; margin: 5px 10px;}
+footer .footerWrap .footerctn .ctnM .ShopMenu ul li a i{font-size: 30px; border: 1px solid #eeeeee; border-radius: 50%; padding: 10px; color: #aaaaaa;}
+footer .footerWrap .footerctn .ctnM .ShopMenu ul li p{font-size: 15px; color: #707070; line-height: 30px;}
+
+footer .footerWrap .footerctn .ctnB {padding: 30px 0;}
+footer .footerWrap .footerctn .ctnB span{font-size: 12px; color: #aaaaaa; margin-right: 25px; line-height: 25px;}
+footer .footerWrap .footerctn .ctnB span:last-child{color: #707070; font-weight: bold;}
+
+/* footer Fin */
